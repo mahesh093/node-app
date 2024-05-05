@@ -19,6 +19,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/persons', personsRouter);
 // commit
+console.log(port);
 
 
 app.listen(port, function(req, res) {
